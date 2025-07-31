@@ -1,0 +1,6 @@
+reportlab>=3.6.0
+argparse
+typing
+json
+datetime
+dataclasses

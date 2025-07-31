@@ -1,0 +1,118 @@
+{
+  "name": "Software Development Lifecycle",
+  "customer": "Internal Business Units",
+  "supplier": "Development Team",
+  "product": "Custom Software Application",
+  "processes": [
+    {
+      "name": "Requirements Analysis",
+      "cycle_time": 480.0,
+      "lead_time": 1440.0,
+      "uptime": 90.0,
+      "changeover_time": 60.0,
+      "batch_size": 1,
+      "number_of_operators": 2,
+      "available_time": 480.0,
+      "waste_types": [
+        "waiting",
+        "overprocessing"
+      ],
+      "value_added": true,
+      "description": "Gather and analyze customer requirements"
+    },
+    {
+      "name": "Design & Architecture",
+      "cycle_time": 720.0,
+      "lead_time": 2880.0,
+      "uptime": 85.0,
+      "changeover_time": 120.0,
+      "batch_size": 1,
+      "number_of_operators": 3,
+      "available_time": 480.0,
+      "waste_types": [
+        "waiting"
+      ],
+      "value_added": true,
+      "description": "Create system design and architecture"
+    },
+    {
+      "name": "Development",
+      "cycle_time": 1440.0,
+      "lead_time": 7200.0,
+      "uptime": 80.0,
+      "changeover_time": 240.0,
+      "batch_size": 1,
+      "number_of_operators": 5,
+      "available_time": 480.0,
+      "waste_types": [
+        "defects",
+        "waiting"
+      ],
+      "value_added": true,
+      "description": "Code implementation and unit testing"
+    },
+    {
+      "name": "Code Review",
+      "cycle_time": 240.0,
+      "lead_time": 960.0,
+      "uptime": 95.0,
+      "changeover_time": 30.0,
+      "batch_size": 1,
+      "number_of_operators": 2,
+      "available_time": 480.0,
+      "waste_types": [],
+      "value_added": true,
+      "description": "Peer code review and feedback"
+    },
+    {
+      "name": "Testing",
+      "cycle_time": 480.0,
+      "lead_time": 1920.0,
+      "uptime": 88.0,
+      "changeover_time": 60.0,
+      "batch_size": 1,
+      "number_of_operators": 3,
+      "available_time": 480.0,
+      "waste_types": [
+        "defects",
+        "waiting"
+      ],
+      "value_added": true,
+      "description": "System testing and quality assurance"
+    },
+    {
+      "name": "Documentation",
+      "cycle_time": 360.0,
+      "lead_time": 720.0,
+      "uptime": 92.0,
+      "changeover_time": 30.0,
+      "batch_size": 1,
+      "number_of_operators": 1,
+      "available_time": 480.0,
+      "waste_types": [
+        "overprocessing"
+      ],
+      "value_added": false,
+      "description": "Create user and technical documentation"
+    },
+    {
+      "name": "Deployment",
+      "cycle_time": 120.0,
+      "lead_time": 480.0,
+      "uptime": 75.0,
+      "changeover_time": 180.0,
+      "batch_size": 1,
+      "number_of_operators": 2,
+      "available_time": 480.0,
+      "waste_types": [
+        "waiting",
+        "motion"
+      ],
+      "value_added": false,
+      "description": "Deploy to production environment"
+    }
+  ],
+  "takt_time": 2400.0,
+  "created_date": "2025-07-31",
+  "analyst": "Demo System"
+}
