@@ -1,0 +1,115 @@
+{
+  "name": "Custom Widget Manufacturing Process",
+  "customer": "ABC Manufacturing Corp",
+  "supplier": "XYZ Components Ltd",
+  "product": "Custom Industrial Widget",
+  "processes": [
+    {
+      "name": "Order Processing",
+      "cycle_time": 15.0,
+      "lead_time": 120.0,
+      "uptime": 95.0,
+      "changeover_time": 5.0,
+      "batch_size": 1,
+      "number_of_operators": 2,
+      "available_time": 480.0,
+      "waste_types": [
+        "waiting"
+      ],
+      "value_added": true,
+      "description": "Process customer orders and validate requirements"
+    },
+    {
+      "name": "Material Preparation",
+      "cycle_time": 30.0,
+      "lead_time": 240.0,
+      "uptime": 85.0,
+      "changeover_time": 20.0,
+      "batch_size": 10,
+      "number_of_operators": 3,
+      "available_time": 480.0,
+      "waste_types": [
+        "inventory",
+        "transportation"
+      ],
+      "value_added": true,
+      "description": "Gather and prepare materials for production"
+    },
+    {
+      "name": "Quality Check",
+      "cycle_time": 10.0,
+      "lead_time": 60.0,
+      "uptime": 98.0,
+      "changeover_time": 2.0,
+      "batch_size": 1,
+      "number_of_operators": 1,
+      "available_time": 480.0,
+      "waste_types": [],
+      "value_added": true,
+      "description": "Inspect materials for quality standards"
+    },
+    {
+      "name": "Assembly",
+      "cycle_time": 45.0,
+      "lead_time": 180.0,
+      "uptime": 90.0,
+      "changeover_time": 15.0,
+      "batch_size": 5,
+      "number_of_operators": 4,
+      "available_time": 480.0,
+      "waste_types": [
+        "motion",
+        "waiting"
+      ],
+      "value_added": true,
+      "description": "Assemble components into final product"
+    },
+    {
+      "name": "Final Inspection",
+      "cycle_time": 20.0,
+      "lead_time": 90.0,
+      "uptime": 95.0,
+      "changeover_time": 5.0,
+      "batch_size": 1,
+      "number_of_operators": 2,
+      "available_time": 480.0,
+      "waste_types": [],
+      "value_added": true,
+      "description": "Final quality inspection and testing"
+    },
+    {
+      "name": "Packaging",
+      "cycle_time": 12.0,
+      "lead_time": 45.0,
+      "uptime": 92.0,
+      "changeover_time": 8.0,
+      "batch_size": 10,
+      "number_of_operators": 2,
+      "available_time": 480.0,
+      "waste_types": [
+        "overprocessing"
+      ],
+      "value_added": false,
+      "description": "Package product for shipping"
+    },
+    {
+      "name": "Shipping",
+      "cycle_time": 5.0,
+      "lead_time": 1440.0,
+      "uptime": 80.0,
+      "changeover_time": 30.0,
+      "batch_size": 20,
+      "number_of_operators": 1,
+      "available_time": 480.0,
+      "waste_types": [
+        "transportation",
+        "waiting"
+      ],
+      "value_added": false,
+      "description": "Ship product to customer"
+    }
+  ],
+  "takt_time": 30.0,
+  "created_date": "2025-07-31",
+  "analyst": "VSM Generator System"
+}
